@@ -18,7 +18,7 @@ export function Layout({ children }: LayoutProps) {
 
   useEffect(() => {
     setPodcasts();
-  }, [podcasts]);
+  }, []);
 
   const podcastDetailsStore = usePodcastDetailsStore();
 
