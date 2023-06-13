@@ -32,6 +32,14 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) para ver el sitio
 
+### Archivo .ENV
+
+Deberán crear un archivo .env dentro de la carpeta del proyecto y pegar las variables que fueron enviadas por mail.
+
+### Permitir acceso CORS
+
+Entrar a [https://cors-anywhere.herokuapp.com/](https://cors-anywhere.herokuapp.com/) y permitir acceso para poder hacer las peticiones a las APIs de Apple.
+
 ## Correr en producción
 
 Utiliza este comando para construir la aplicación para producción y ejecutarla.
